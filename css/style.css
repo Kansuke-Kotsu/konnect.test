@@ -1,0 +1,189 @@
+html{
+  max-width: 100%
+  font-size: 100%;
+  background-color: #FFEEFF;
+}
+img{
+  max-width: 100%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  padding: 30px;
+  text-align: center;
+  font-size: 23px;
+}
+body{
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+/* header */
+header{
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+header ul{
+  display: flex;
+}
+
+
+.hp-icon{
+  margin: 13px 10%;
+  color: #FFBBFF;
+  padding: 2.5px;
+  border: 1px solid #FFBBFF;
+}
+header ul{
+  padding-right: 10%;
+}
+header li{
+  padding-left: 30px;
+}
+.mark{
+  padding: 5px;
+  background-color: #FFEEFF;
+  border: 1px solid #FFBBFF;
+}
+.registration{
+  padding: 2.5px;
+  border: 1px solid black;
+}
+.insta-icon img{
+  width: 20px;
+  height: 20px;
+}
+
+/*main*/
+.box{
+  position: relative;
+}
+.box img{
+  width: 100%;
+  height:auto;
+}
+.box p{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+/* works */
+.works-contents{
+  display: flex;
+  margin-top: 50px;
+}
+/* today */
+.today-contents{
+  max-width: 50%;
+  margin: 0 7.5%;
+}
+.today-contents h1{
+  text-align: left;
+  border-bottom: solid 1px #dedede;
+}
+.today-1{
+  display: flex;
+}
+.today-1 img{
+  width: 250px;
+  height: 200px;
+  padding: 5px 5px;
+}
+
+/* news */
+.news{
+  margin-top: 50px;
+}
+.news-table{
+  display: flex;
+  padding: 2px;
+  border-top: solid 1px #dedede;
+}
+.news-table p{
+  padding-left: 45px;
+}
+
+/* contact */
+.contact{
+  padding-bottom: 70px;
+}
+.contact{
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  /*flex-direction: column;*/
+}
+
+.contact-contents{
+  text-align: center;
+}
+.contact input{
+  width: 80%;
+  padding: 10px;
+  margin: 3.5px;
+}
+.contact textarea{
+  width: 80%;
+  height: 70px;
+}
+
+/*top(top)*/
+.top{
+
+}
+.top h1{
+  text-align: left;
+  border-top: solid 1px #dedede;
+  padding-bottom: 0px;
+}
+.top-contents{
+  display: flex;
+  overflow-x:scroll;
+}
+.top-1 img{
+  width: 250px;
+  height: auto;
+  padding: 5px 5px;
+}
+.top-1 .comment p{
+  margin: 0 0;
+  margin-left: 15px;
+}
+.search h1{
+  border-top: solid 1px #dedede;
+  margin-top: 50px;
+  text-align: left;
+}
+.search form{
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.other h1{
+  border-top: solid 1px #dedede;
+  margin-top: 50px;
+  text-align: left;
+}
+.other form{
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+footer{
+  background-color: black;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
