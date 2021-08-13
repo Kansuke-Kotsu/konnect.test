@@ -38,10 +38,11 @@ header{
 }
 header ul{
   display: flex;
-  margin-left: 15%;
+  margin: 15px 15%;
 }
 header li{
-  padding-left: 50px;
+  white-space: nowrap;
+  margin-left: 5%;
 }
 .mark{
   padding: 5px;
@@ -165,7 +166,7 @@ header li{
 
 /*top(top)*/
 .top{
-
+  background-color: white;
 }
 .top h1{
   text-align: left;
@@ -185,6 +186,10 @@ header li{
   margin: 0 0;
   margin-left: 15px;
 }
+.search{
+  background-color: white;
+  padding-bottom: 50px;
+}
 .search h1{
   border-top: solid 1px #dedede;
   margin-top: 50px;
@@ -193,7 +198,12 @@ header li{
 .search form{
   display: flex;
   margin-left: 30px;
-  margin-bottom: 50px;
+}
+.search .bottom{
+  margin-left: 1%;
+  padding: 2.5px;
+  border: 1px solid black;
+  border-radius: 15%;
 }
 .upload h1{
   border-top: solid 1px #dedede;
@@ -210,6 +220,35 @@ header li{
   margin-left: 30px;
   margin-bottom: 50px;
   padding: 5px;
+}
+
+.reg-main{
+  display: flex;
+}
+
+.mother{
+  margin: 50px 20%;
+  background-color: #FF66FF;
+  border-radius: 30px;
+  padding: 20px 50px;
+}
+
+.elderly{
+  margin: 50px 0;
+  background-color: #33FF66;
+  border-radius: 30px;
+  padding: 20px 50px;
+}
+
+.mot-main{
+  margin-top: 50px;
+}
+.mot-main form{
+  margin-top: 50px;
+  text-align: center;
+}
+.comment2{
+  margin: 20px 20px;
 }
 
 footer{
