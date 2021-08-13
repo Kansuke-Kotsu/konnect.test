@@ -1,0 +1,175 @@
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  html{
+    max-width: 100%
+    font-size: 100%;
+    background-color: #FFEEFF;
+  }
+  img{
+    max-width: 100%;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 23px;
+  }
+  body{
+    max-width: 80%;
+    margin: 0 auto;
+
+  }
+  /* header */
+  header{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .hp-icon{
+    margin: 13px 8%;
+    color: #FFBBFF;
+    padding: 2.5px;
+    border: 1px solid #FFBBFF;
+  }
+  header ul{
+    display: flex;
+    margin: 15px 15%;
+  }
+  header li{
+    white-space: nowrap;
+    margin-left: 5%;
+  }
+  .mark{
+    padding: 5px;
+    background-color: #FFEEFF;
+    border: 1px solid #FFBBFF;
+  }
+  .registration{
+    padding: 2.5px;
+    border: 1px solid black;
+  }
+  .insta-icon img{
+    width: 20px;
+    height: 20px;
+  }
+  /*main*/
+  .top{
+    background-color: white;
+  }
+  .top h1{
+    text-align: left;
+    border-top: solid 1px #dedede;
+    padding-bottom: 0px;
+  }
+  .top-contents{
+    display: flex;
+    overflow-x:scroll;
+  }
+  .top-1 img{
+    width: 250px;
+    height: auto;
+    padding: 5px 5px;
+  }
+  .top-1 .comment p{
+    margin: 0 0;
+    margin-left: 15px;
+  }
+  .search{
+    background-color: white;
+    padding-bottom: 50px;
+  }
+  .search h1{
+    border-top: solid 1px #dedede;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .search form{
+    display: flex;
+    margin-left: 30px;
+  }
+  .search .bottom{
+    margin-left: 1%;
+    padding: 2.5px;
+    border: 1px solid black;
+    border-radius: 15%;
+  }
+  .upload h1{
+    border-top: solid 1px #dedede;
+    margin-top: 50px;
+    text-align: left;
+  }
+  footer{
+    background-color: black;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  html {
+    max-width: 100%
+    font-size: 100%;
+    background-color: white; /*青色*/
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .btn-gNav span{
+  	position: absolute;
+  	width: 100%;
+  	height: 4px;
+  	background: #666;
+  	border-radius: 10px;
+  	-webkit-transition: all 400ms;
+  	transition: all 400ms;
+  }
+  .btn-gNav span:nth-child(1) {
+  	top:0;
+  }
+  .btn-gNav span:nth-child(2) {
+  	top:10px;
+  }
+  .btn-gNav span:nth-child(3) {
+  	top:20px;
+  }
+  .btn-gNav{
+  	position: fixed;
+  	top: 20px;
+  	right: 20px;
+  	width: 30px;
+  	height: 24px;
+  	z-index: 3;
+  }
+  #gNav{
+  	position: fixed;
+  	top: 0;
+  	right: -100%;
+  	width: 25%;
+  	height: 100%;
+  	z-index: 2;
+    background-color: #FFEEFF;
+  }
+  #gNav.open{
+  	right: 0px;
+  }
+  #gNav .gNav-menu{
+  	width: 100%;
+  	height:100%;
+  	display: flex;
+  	flex-direction: column;
+  	text-align: left;
+  }
+
+}
