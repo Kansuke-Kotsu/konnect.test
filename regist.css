@@ -72,8 +72,6 @@
     color: white;
     text-align: center;
   }
-
-
 }
 
 @media screen and (max-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
@@ -140,7 +138,7 @@
     background-color: #FFEEFF;
   }
 
-  
+
   footer{
     background-color: black;
     padding: 15px;

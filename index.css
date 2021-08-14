@@ -59,50 +59,107 @@
     height: 20px;
   }
   /*main*/
-  .top{
-    background-color: white;
-  }
-  .top h1{
-    text-align: left;
-    border-top: solid 1px #dedede;
-    padding-bottom: 0px;
-  }
   .top-contents{
     display: flex;
-    overflow-x:scroll;
+    background-color: white;
   }
-  .top-1 img{
+  .top-comment{
+    width: 35%;
+    text-align: center;
+  }
+  .comment-1{
+    margin-top: 80px;
+    font-size: 30px;
+    color: #FF55FF;
+  }
+  .comment-2{
+    margin-top: 75px;
+
+  }
+  .box{
+    position: relative;
+    width: 100%;
+  }
+  .box img{
+    width: 100%;
+    height:auto;
+  }
+  .box p{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+  }
+  /* 2 */
+  .contents-2{
+    background-color: white;
+  }
+  .contents-2 h1{
+    font-size: 25px;
+    text-align: left;
+    color: #555555;
+  }
+  .contents-2 p{
+    padding-left: 30px;
+  }
+  /* works */
+  .works-contents{
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+  }
+  /* today */
+  .today-contents{
+    max-width: 50%;
+    margin: 0 7.5%;
+  }
+  .today-contents h1{
+    text-align: left;
+    border-bottom: solid 1px #dedede;
+  }
+  .today-1{
+    display: flex;
+  }
+  .today-1 img{
     width: 250px;
-    height: auto;
+    height: 200px;
     padding: 5px 5px;
   }
-  .top-1 .comment p{
-    margin: 0 0;
-    margin-left: 15px;
-  }
-  .search{
-    background-color: white;
-    padding-bottom: 50px;
-  }
-  .search h1{
-    border-top: solid 1px #dedede;
+
+  /* news */
+  .news{
     margin-top: 50px;
-    text-align: left;
   }
-  .search form{
+  .news-table{
     display: flex;
-    margin-left: 30px;
-  }
-  .search .bottom{
-    margin-left: 1%;
-    padding: 2.5px;
-    border: 1px solid black;
-    border-radius: 15%;
-  }
-  .upload h1{
+    padding: 2px;
     border-top: solid 1px #dedede;
-    margin-top: 50px;
-    text-align: left;
+  }
+  .news-table p{
+    padding-left: 45px;
+  }
+
+  /* contact */
+  .contact{
+    padding-bottom: 70px;
+  }
+  .contact{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /*flex-direction: column;*/
+  }
+  .contact-contents{
+    text-align: center;
+  }
+  .contact input{
+    width: 80%;
+    padding: 10px;
+    margin: 3.5px;
+  }
+  .contact textarea{
+    width: 80%;
+    height: 70px;
   }
   footer{
     background-color: black;
@@ -126,7 +183,7 @@
     text-decoration: none;
     color: black;
   }
-
+  
   /* header */
   header{
     padding-bottom: 50px;
@@ -179,51 +236,9 @@
   	flex-direction: column;
   	text-align: left;
   }
-
-  /* in-main */
-  .top{
-    display: none;
-  }
-  .search{
-    background-color: white;
-    padding-bottom: 50px;
-  }
-  .search h1{
-    margin-top: 50px;
-    text-align: left;
-  }
-  .search form{
-    display: flex;
-    margin-left: 30px;
-  }
-  .search .bottom{
-    margin-left: 1%;
-    padding: 2.5px;
-    border: 1px solid black;
-    border-radius: 15%;
-  }
-
-  /*in2-main*/
-  .today img{
+  .box img{
     width: 90%;
     height: auto;
-  }
-  .today-1{
-    position: relative;
-    margin-top: 20px;
-  }
-  .today-1 .comment2{
-    position: absolute;
-    width: 90%;
-    display: flex;
-    bottom: 6px;
-    left: 0px;
-    background-color: #FFDDFF;
-    opacity: 0.5;
-  }
-  .today-1 .comment2 p{
-    margin-left: 5%;
-    opacity: 1;
   }
   footer{
     background-color: black;
@@ -232,5 +247,4 @@
     color: white;
     text-align: center;
   }
-
 }
